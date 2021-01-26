@@ -95,7 +95,7 @@ class RecommendationHandler: ObservableObject {
     let inputIdsData = Data(copyingBufferOf: inputIds)
 
     // MARK: - Inferencing
-    let inferenceStartTime = Date()
+    // let inferenceStartTime = Date()
 
     let outputIdsTensor: Tensor
     let outputScoresTensor: Tensor
@@ -114,7 +114,7 @@ class RecommendationHandler: ObservableObject {
       return
     }
     
-    let inferenceTime = Date().timeIntervalSince(inferenceStartTime) * 1000
+    // let inferenceTime = Date().timeIntervalSince(inferenceStartTime) * 1000
     
     // MARK: - Postprocessing
     recommendMovies = postprocessing(
@@ -138,10 +138,8 @@ class RecommendationHandler: ObservableObject {
     var results: [MovieItem] = []
     for i in 0..<ids.count {
       let id = ids[i]
-      let confidence = confidences[i]
       if let movie = candidates[id] {
         results.append(movie)
-        print(movie, confidence)
         if results.count == config.topK {
           break
         }
