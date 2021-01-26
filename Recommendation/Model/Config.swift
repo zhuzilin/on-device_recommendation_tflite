@@ -7,7 +7,7 @@
 
 import Foundation
 
-let DEFAULT_MODEL_PATH: String = "recommendation_rnn_i10o100"
+let DEFAULT_MODEL_PATH: String = "model_history10_top100"
 let DEFAULT_MOVIE_LIST_PATH: String = "sorted_movie_vocab"
 let DEFAULT_INPUT_LENGTH: Int = 10
 let DEFAULT_OUTPUT_LENGTH: Int = 100

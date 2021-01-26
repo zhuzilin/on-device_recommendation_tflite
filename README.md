@@ -15,4 +15,4 @@ pod install
 Recommendation.xcworkspace
 ```
 
-Notice that there seems to be some issue with the `.tflite` file provided in the [tensorflow/example](https://github.com/tensorflow/examples/tree/master/lite/examples/recommendation/android). If you feel like to retrain the model, please follow the instructions [here](https://github.com/tensorflow/examples/tree/master/lite/examples/recommendation/ml).
+If you feel like to retrain the model, please follow the instructions [here](https://github.com/tensorflow/examples/tree/master/lite/examples/recommendation/ml).

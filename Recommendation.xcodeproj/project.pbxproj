@@ -16,10 +16,10 @@
 		B3326FCF25BF0E6A00FCCB65 /* MovieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3326FCE25BF0E6A00FCCB65 /* MovieItem.swift */; };
 		B3326FD725BF0EC100FCCB65 /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3326FD625BF0EC100FCCB65 /* FileUtil.swift */; };
 		B3326FE225BFAA5C00FCCB65 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = B3326FDF25BFAA5C00FCCB65 /* config.json */; };
-		B3326FE325BFAA5C00FCCB65 /* recommendation_rnn_i10o100.tflite in Resources */ = {isa = PBXBuildFile; fileRef = B3326FE025BFAA5C00FCCB65 /* recommendation_rnn_i10o100.tflite */; };
 		B3326FE425BFAA5C00FCCB65 /* sorted_movie_vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = B3326FE125BFAA5C00FCCB65 /* sorted_movie_vocab.json */; };
 		B3326FF325BFCAF100FCCB65 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3326FF225BFCAF100FCCB65 /* Extensions.swift */; };
 		B332700125C00E4100FCCB65 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332700025C00E4100FCCB65 /* Header.swift */; };
+		B332701425C032D800FCCB65 /* model_history10_top100.tflite in Resources */ = {isa = PBXBuildFile; fileRef = B332701325C032D800FCCB65 /* model_history10_top100.tflite */; };
 		F8210E1903EAA7E4C229B664 /* Pods_Recommendation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9926231C056D1EA339181C9E /* Pods_Recommendation.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,10 +55,10 @@
 		B3326FCE25BF0E6A00FCCB65 /* MovieItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
 		B3326FD625BF0EC100FCCB65 /* FileUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtil.swift; sourceTree = "<group>"; };
 		B3326FDF25BFAA5C00FCCB65 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
-		B3326FE025BFAA5C00FCCB65 /* recommendation_rnn_i10o100.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = recommendation_rnn_i10o100.tflite; sourceTree = "<group>"; };
 		B3326FE125BFAA5C00FCCB65 /* sorted_movie_vocab.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sorted_movie_vocab.json; sourceTree = "<group>"; };
 		B3326FF225BFCAF100FCCB65 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B332700025C00E4100FCCB65 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		B332701325C032D800FCCB65 /* model_history10_top100.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = model_history10_top100.tflite; sourceTree = "<group>"; };
 		C1C4F39810814F8FE32A9787 /* Pods-Recommendation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recommendation.debug.xcconfig"; path = "Target Support Files/Pods-Recommendation/Pods-Recommendation.debug.xcconfig"; sourceTree = "<group>"; };
 		DC672FCB06147B66EA0685B5 /* Pods-Recommendation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recommendation.release.xcconfig"; path = "Target Support Files/Pods-Recommendation/Pods-Recommendation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,8 +135,8 @@
 		B3326FDB25BFA9B000FCCB65 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B332701325C032D800FCCB65 /* model_history10_top100.tflite */,
 				B3326FDF25BFAA5C00FCCB65 /* config.json */,
-				B3326FE025BFAA5C00FCCB65 /* recommendation_rnn_i10o100.tflite */,
 				B3326FE125BFAA5C00FCCB65 /* sorted_movie_vocab.json */,
 			);
 			path = Resources;
@@ -293,7 +293,7 @@
 			files = (
 				B3326F5825BEFD4E00FCCB65 /* Preview Assets.xcassets in Resources */,
 				B3326FE225BFAA5C00FCCB65 /* config.json in Resources */,
-				B3326FE325BFAA5C00FCCB65 /* recommendation_rnn_i10o100.tflite in Resources */,
+				B332701425C032D800FCCB65 /* model_history10_top100.tflite in Resources */,
 				B3326F5525BEFD4E00FCCB65 /* Assets.xcassets in Resources */,
 				B3326FE425BFAA5C00FCCB65 /* sorted_movie_vocab.json in Resources */,
 			);
